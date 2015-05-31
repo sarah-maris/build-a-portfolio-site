@@ -6,7 +6,8 @@
 }
 
 /* basics*/
-body, html {
+body, 
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -22,11 +23,20 @@ body {
   margin-right: auto;
 }
 
-header, nav, footer, section, article, div {
+header, 
+nav, 
+footer, 
+section, 
+article, 
+div {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
   margin: 0; 
   
 }
@@ -40,7 +50,7 @@ p {
 }
 
 /* header*/
-.header {
+header {
 	background-color: #86b741;
 	color: white;
 	width: 100%;
@@ -48,23 +58,23 @@ p {
 }
 
 .logo {
-	float:left;
+	float: left;
 	width: 75px;
 	padding: 20px;
 }
 
-.header  h1{
-	font: 48px bold PT Serif, Garamond, serif;
-	line-height:48px;
+#name {
+	font: 48px bold 'PT Serif', Garamond, serif;
+	line-height: 48px;
 	padding-top: 20px;
 	padding-right: 20px;
 	text-align: right;
 	text-transform: uppercase;
 }
 
-.header  h4{
+#title {
 	font: 18px Lato, Arial, sans-serif;
-	font-weight:300;
+	font-weight: 300;
 	padding-bottom: 20px;
 	padding-right: 20px;
 	text-align: right;
@@ -83,7 +93,7 @@ p {
 .work-title {
 	padding: 20px 0 10px 20px;
 	font: 24px Lato, Garamond, serif;
-	font-weight:300;
+	font-weight: 300;
 	text-transform: uppercase;
 }
 
@@ -93,18 +103,18 @@ p {
 	flex-wrap: wrap;
 }
 
-.app-box{
-	float:left;
+.app-box {
+	float: left;
 	width: calc((100% - 80px)/3);
 	margin: 0 20px 20px 0;	
 }
 
-.app-box a{
+.app-box a {
 	text-decoration: none;
 	color: #fff;
 }
 
-.app-box a:hover{
+.app-box a:hover {
 	color: #555;
 }
 
@@ -118,7 +128,7 @@ p {
 	margin-left: 20px;
 }
 
-.app-box.right{
+.app-box.right {
 	margin-right: 0;
 }
 
@@ -138,7 +148,7 @@ p {
 }
 .app-desc {
 	padding: 10px;
-	margin:0;
+	margin: 0;
 	}
 
 /* footer */
@@ -153,7 +163,7 @@ footer {
 .connect-title {
 	padding: 20px;
 	font: 18px Lato, Garamond, serif;
-	font-weight:300;
+	font-weight: 300;
 	text-transform: uppercase;
 	width: 33%;
 	display: inline-block;
@@ -168,11 +178,11 @@ footer {
 .connections-box li {
 	display: inline-block;
 	list-style-type: none;
-	text-align:center;
+	text-align: center;
 	width: 19%;
 }
 
-.connections-box a{
+.connections-box a {
 	text-decoration: none;
 	font-size: 24px;
 }
@@ -214,7 +224,7 @@ footer {
 	.app-box.right	{
 		width: calc((100% - 60px)/2);
 		}
-	.app-box.mid	{
+	.app-box.mid {
 		margin-left: 20px;;
 		}
 }
@@ -225,9 +235,9 @@ footer {
 		width: 50px;
 	}
 
-	.header  h1{
+	.header  h1 {
 		font-size: 36px;
-		line-height:36px;
+		line-height: 36px;
 	}
 	
 	.connect-title  {
