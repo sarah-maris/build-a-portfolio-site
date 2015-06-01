@@ -64,7 +64,7 @@ header {
 }
 
 #name {
-  font: 48px bold 'PT Serif', Garamond, serif;
+  font: bold 48px 'PT Serif', Garamond, serif;
   line-height: 48px;
   padding-top: 20px;
   padding-right: 20px;
