@@ -42,220 +42,220 @@ h5 {
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 p {
-	font-family: Lato, sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 /* header*/
 header {
-	background-color: #86b741;
-	color: white;
-	width: 100%;
-	margin-bottom: 20px;
+  background-color: #86b741;
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .logo {
-	float: left;
-	width: 75px;
-	padding: 20px;
+  float: left;
+  width: 75px;
+  padding: 20px;
 }
 
 #name {
-	font: 48px bold 'PT Serif', Garamond, serif;
-	line-height: 48px;
-	padding-top: 20px;
-	padding-right: 20px;
-	text-align: right;
-	text-transform: uppercase;
+  font: 48px bold 'PT Serif', Garamond, serif;
+  line-height: 48px;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 #title {
-	font: 18px Lato, Arial, sans-serif;
-	font-weight: 300;
-	padding-bottom: 20px;
-	padding-right: 20px;
-	text-align: right;
-	text-transform: uppercase;	
+  font: 18px Lato, Arial, sans-serif;
+  font-weight: 300;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 /* Featured Work box */
 
 .featured-work {
-	background-color: #86b741;
-	color: white;
-	width: 100%;
-	margin: 20px 0;
+  background-color: #86b741;
+  color: white;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .work-title {
-	padding: 20px 0 10px 20px;
-	font: 24px Lato, Garamond, serif;
-	font-weight: 300;
-	text-transform: uppercase;
+  padding: 20px 0 10px 20px;
+  font: 24px Lato, Garamond, serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .work-container {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .app-box {
-	float: left;
-	width: calc((100% - 80px)/3);
-	margin: 0 20px 20px 0;	
+  float: left;
+  width: calc((100% - 80px)/3);
+  margin: 0 20px 20px 0;
 }
 
 .app-box a {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .app-box a:hover {
-	color: #555;
+  color: #555;
 }
 
 .app-box a:hover img {
-	-webkit-box-shadow: 5px 5px 10px 0px rgba(119,119,119,1);
-	-moz-box-shadow: 5px 5px 10px 0px rgba(119,119,119,1);
-	box-shadow: 5px 5px 10px 0px rgba(119,119,119,1);
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(119,119,119,1);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(119,119,119,1);
+  box-shadow: 5px 5px 10px 0px rgba(119,119,119,1);
 }
 
 .app-box.left {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 .app-box.right {
-	margin-right: 0;
+  margin-right: 0;
 }
 
 .app-info {
-	margin-top: 10px;
-		background-color: #4e6b26;
+  margin-top: 10px;
+  background-color: #4e6b26;
 }
 
 .app-title {
-	font: 18px Lato, Garamond, serif;
-	font-weight: bold;
-	padding: 10px;
+  font: 18px Lato, Garamond, serif;
+  font-weight: bold;
+  padding: 10px;
 }
-	
+  
 .app-title a {
-	font-weight: normal;
+  font-weight: normal;
 }
 .app-desc {
-	padding: 10px;
-	margin: 0;
-	}
+  padding: 10px;
+  margin: 0;
+}
 
 /* footer */
 
 footer {
-	background-color: #86b741;
-	color: white;
-	width: 100%;
-	margin: 20px 0;
+  background-color: #86b741;
+  color: white;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .connect-title {
-	padding: 20px;
-	font: 18px Lato, Garamond, serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	width: 33%;
-	display: inline-block;
+  padding: 20px;
+  font: 18px Lato, Garamond, serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 33%;
+  display: inline-block;
 }
 
 .connections-box {
-	width: 60%;
-	padding: 20px 0;
-	display: inline-block;
+  width: 60%;
+  padding: 20px 0;
+  display: inline-block;
 }
 
 .connections-box li {
-	display: inline-block;
-	list-style-type: none;
-	text-align: center;
-	width: 19%;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  width: 19%;
 }
 
 .connections-box a {
-	text-decoration: none;
-	font-size: 24px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .connections-box i {
-	font-style: normal;
-	color: #fff;
-	text-shadow: 2px 2px 2px #777;
+  font-style: normal;
+  color: #fff;
+  text-shadow: 2px 2px 2px #777;
 }
 
 .connections-box i:hover{
-	color: #777;
+  color: #777;
 }
 
 /* Breakpoint 750px */
 @media screen and (max-width: 750px) and (min-width: 651px){
-	.app-title {
-		font-size: 14px;
-	}
+  .app-title {
+    font-size: 14px;
+  }
 }
 
 /* Breakpoint 650px */
 @media screen and (max-width: 650px) {
-	.connect-title {
-		width: 100%;
-		padding-bottom: 0;
-	}
-	
-	.connections-box {
-		width: 100%;
-		padding-top: 10px;
-	}
-	
-	.app-box.left {
-		width: 100%;
-		}
-		
-	.app-box.mid,	
-	.app-box.right	{
-		width: calc((100% - 60px)/2);
-		}
-	.app-box.mid {
-		margin-left: 20px;;
-		}
+  .connect-title {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  
+  .connections-box {
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .app-box.left {
+    width: 100%;
+   }
+    
+  .app-box.mid,  
+  .app-box.right  {
+    width: calc((100% - 60px)/2);
+   }
+  .app-box.mid {
+    margin-left: 20px;;
+  }
 }
 
 /* Breakpoint 500px */
 @media screen and (max-width: 500px) {
-	.logo {
-		width: 50px;
-	}
+  .logo {
+    width: 50px;
+  }
 
-	.header  h1 {
-		font-size: 36px;
-		line-height: 36px;
-	}
-	
-	.connect-title  {
-		font-size: 18px;
-	}
+  .header  h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  
+  .connect-title  {
+    font-size: 18px;
+  }
 
-	.header  h4,
-	.connect-title {
-		font-size: 14px;
-	}
-	
-	.app-box.mid, 
-	.app-box.right 	{
-		width: 100%;
-	}
-	
-	.app-box.right {
-		padding-left: 20px;
-		padding-right: 20px;
-	}	
+  .header  h4,
+  .connect-title {
+    font-size: 14px;
+  }
+  
+  .app-box.mid, 
+  .app-box.right   {
+    width: 100%;
+  }
+  
+  .app-box.right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }  
 }
